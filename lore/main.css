@@ -8970,6 +8970,20 @@ a:hover {
           animation: entrance 400ms 1400ms linear backwards 1;
 }
 
+
+#shot .options6 {
+  width: 200px;
+  height: auto;
+  display: -webkit-box;
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 0;
+  right: -140px;
+  -webkit-animation: entrance 400ms 1400ms linear backwards 1;
+          animation: entrance 400ms 1400ms linear backwards 1;
+}
+
 #but3 {
   height: 40px;
   width:120px;
