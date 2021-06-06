@@ -1,5 +1,3 @@
-/** @jsx h */
-
 
 function App() {
   return (
