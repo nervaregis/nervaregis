@@ -147,7 +147,8 @@ z-index:1;
 }
 
 .container .card .face.face1 .content img{
-    max-width: 100px;
+    width:300px;
+	height:250px;
 }
 
 .container .card .face.face1 .content h3{
