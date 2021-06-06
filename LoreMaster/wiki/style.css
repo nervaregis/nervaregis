@@ -5,18 +5,18 @@
 
 html,
 body {
-  --colors-bg--300: #1e181e;
+  --colors-bg--300: #191a1e;
   --colors-bg--500: #191a1e;
-  --colors-primary--200: #f4908b;
-  --colors-primary--300: #ea6f69;
-  --colors-primary--500: #e8615a;
-  --colors-primary--600: #9c3230;
-  --colors-primary--700: #5e2122;
-  --colors-primary--800: #451717;
-  --colors-primary--900: #3c181a;
+  --colors-primary--200: #8BD1F4;
+  --colors-primary--300: #6ABAEE;
+  --colors-primary--500: #5A96E8;
+  --colors-primary--600: #30609C;
+  --colors-primary--700: #21285E;
+  --colors-primary--800: #172145;
+  --colors-primary--900: #182B3C;
   --colors-secondary--500: #2be4ea;
-  --colors-secondary--900: #295459;
-  --colors-tertiary--500: #fed33f;
+  --colors-secondary--900: #293D59;
+  --colors-tertiary--500: #3FFEFC;
   --colors-on_bg--500: var(--colors-primary--500);
   --colors-on_tertiary--500: var(--colors-bg--300);
   --colors-on_primary--500: var(--colors-primary--200);
@@ -42,7 +42,7 @@ body {
   background-color: var(--colors-bg--500);
   background-image: radial-gradient(
     ellipse at 33% 10%,
-    #461616 0%,
+    #232877 0%,
     transparent 75%
   );
   background-repeat: no-repeat;
@@ -124,7 +124,7 @@ a {
 
 .nav-section__header {
   background-color: var(--colors-bg--300);
-  border: 1px solid #5d2322;
+  border: 1px solid #41B0BB;
   border-radius: 3px;
   margin-bottom: 0.5rem;
   padding: 0.5rem 0.75rem;
@@ -202,14 +202,14 @@ a {
 .nav-section .nav__link:focus,
 .nav-section .nav__link:hover {
   background-color: var(--colors-bg--300);
-  border: 1px solid #5d2322;
+  border: 1px solid #22265D;
 }
 
 .nav-section .nav__link--active,
 .nav-section .nav__link.nav__link--active:focus,
 .nav-section .nav__link.nav__link--active:hover {
-  background-color: #391419;
-  border-color: #9c3230;
+  background-color: #1D1973;
+  border-color: #40309C;
 }
 
 .channel-link,
@@ -408,7 +408,7 @@ textarea {
 }
 
 .message__body {
-  background-color: var(--colors-bg--300);
+  background-color: transparent;
   border: 1px solid var(--colors-tertiary--500);
   border-radius: 3px;
   color: var(--colors-tertiary--500);
