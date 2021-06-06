@@ -1,5 +1,5 @@
 /** @jsx h */
-const { h, render } = preact;
+
 
 function App() {
   return (
