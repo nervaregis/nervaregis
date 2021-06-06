@@ -161,6 +161,7 @@ a {
 .app-header .nav {
   align-items: flex-end;
   display: flex;
+  
 }
 
 .app-header .nav__item + .nav__item {
