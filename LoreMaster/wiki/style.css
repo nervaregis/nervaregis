@@ -16,7 +16,7 @@ body {
   --colors-primary--900: #182B3C;
   --colors-secondary--500: #2be4ea;
   --colors-secondary--900: #293D59;
-  --colors-tertiary--500: #3FFEFC;
+  --colors-tertiary--500:#5A96E8;
   --colors-on_bg--500: var(--colors-primary--500);
   --colors-on_tertiary--500: var(--colors-bg--300);
   --colors-on_primary--500: var(--colors-primary--200);
@@ -139,7 +139,7 @@ a {
 }
 
 .nav-section__title {
-  color: #2be4ea;
+  color: var(--colors-tertiary--500);
   font-size: 1rem;
   margin: 0;
 }
@@ -193,7 +193,7 @@ a {
 .nav-section .nav__link {
   border: 1px solid transparent;
   border-radius: 3px;
-  color: var(--colors-secondary--500);
+  color: var(--colors-tertiary--500);
   display: block;
   font-family: var(--fonts-primary);
   padding: 0.5rem 0.75rem;
@@ -409,7 +409,7 @@ textarea {
 }
 
 .message__body {
-  background-color: transparent;
+  background-color: var(--colors-bg--300);
   border: 1px solid var(--colors-tertiary--500);
   border-radius: 3px;
   color: var(--colors-tertiary--500);
