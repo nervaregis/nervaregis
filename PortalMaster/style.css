@@ -385,7 +385,22 @@ p{
 }
 img{
   opacity:.85;
+ 
+  max-width: 100%;
+  height: auto;
+  
+    left: 15px;
+    top: 15px;
+    border: .2rem solid var(--line-color);
+
 }
+#img_box {
+    width: 100%;
+    margin: 0 auto 0 auto;
+    display: inline-block;
+	text-align:center;
+}
+
 .container{
   width:1170
 }
