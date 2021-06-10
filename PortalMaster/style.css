@@ -289,6 +289,27 @@ hr:before, hr:after{
   text-indent:0;
 }
 
+.btnr{
+  background-color:var(--light-red);
+  background-image: url();
+  padding:1rem 2rem;
+  color:var(--primary-red);
+  text-decoration:none;
+  margin:.3rem;
+  display:inline-block;
+  border-left: .2rem solid var(--primary-red);
+  position:relative;
+  overflow:hidden;
+  text-indent:0;
+}
+
+.btnr span{
+  position:relative;
+  display:inline-block;
+  z-index:2;
+}
+
+
 .btn-2{
   background-color:var(--light-color);
   background-image: url();
@@ -394,12 +415,37 @@ img{
     border: .2rem solid var(--line-color);
 
 }
+
+img.logo {
+	border-style:none;
+}
+video {
+
+  opacity:.85;
+ 
+  max-width: 100%;
+  height: auto;
+  
+    left: 15px;
+    top: 15px;
+    border: .2rem solid var(--line-color);
+
+}
+
 #img_box {
     width: 100%;
     margin: 0 auto 0 auto;
     display: inline-block;
 	text-align:center;
 }
+
+#img_logo {
+    width: 100%;
+    border:none;
+    display: inline-block;
+	text-align:center;
+}
+
 
 .container{
   width:1170
