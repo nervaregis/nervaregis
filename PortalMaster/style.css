@@ -459,6 +459,19 @@ video {
     border-bottom: .2rem solid var(--line-color);
 }
 
+.block-logo {
+    padding: 3rem 0;
+    background-color: rgba(0, 0, 0, .5);
+    margin: 10px 10px;
+    background-image: url();
+    border: .2rem solid var(--line-color);
+	height:150px;
+	width:220px;
+	    display: inline-block;
+	text-align:center;
+}
+
+
 /*COLUMNS STYLE*/
 .columns{
   width:100%;
